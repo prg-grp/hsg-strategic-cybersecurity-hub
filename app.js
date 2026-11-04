@@ -20,8 +20,6 @@
 
   /* ---------- Header / hero ---------- */
   document.title = D.hub.name;
-  $("brand-mark").textContent = "HSG";
-  $("brand-name").innerHTML = esc(D.hub.shortName) + "<small>University of St.Gallen</small>";
   $("hero-eyebrow").textContent = D.hub.eyebrow || "";
   $("hero-title").textContent = D.hub.name;
   $("hero-tagline").textContent = D.hub.tagline;
@@ -203,7 +201,7 @@
     <div>
       <h3>${esc(c.organiser)}</h3>
       <p>${esc(c.address)}</p>
-      <p><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></p>
+      ${c.email ? `<p><a href="mailto:${esc(c.email)}">${esc(c.email)}</a></p>` : ""}
     </div>
     <div>
       <h3>Follow and links</h3>
