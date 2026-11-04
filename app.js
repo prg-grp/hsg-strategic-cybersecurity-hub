@@ -190,7 +190,7 @@
   $("team-grid").innerHTML = D.team.map((t) => `
     <div class="person">
       ${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">` : ""}<div class="photo" data-initials="${esc(initials(t.name))}">${t.photo ? `<img src="${esc(t.photo)}" alt="${esc(t.name)}" onerror="this.parentNode.textContent=this.parentNode.dataset.initials">` : esc(initials(t.name))}</div>${t.url ? `</a>` : ""}
-      <h3>${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.name)}</a>` : esc(t.name)}</h3>
+      <h3>${t.url ? `<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc([t.title, t.name].filter(Boolean).join(" "))}</a>` : esc([t.title, t.name].filter(Boolean).join(" "))}</h3>
       <div class="role">${esc(t.role)}</div>
       <div class="aff">${esc(t.affiliation)}</div>
     </div>`).join("");

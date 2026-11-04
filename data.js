@@ -119,11 +119,11 @@ window.SITE_DATA = {
   // Team: name, role, affiliation, optional photo (path relative to index.html).
   // Team: put the photos in an img/ folder next to index.html with these file names.
   team: [
-    { name: "Anna-Lena Horlemann", role: "Full Professor of Quantum Computing and Information Theory; Director, Institute of Computer Science",
+    { title: "Prof. Dr.", name: "Anna-Lena Horlemann", role: "Full Professor of Quantum Computing and Information Theory; Director, Institute of Computer Science",
       affiliation: "University of St.Gallen", photo: "img/anna-lena-horlemann.jpg", url: "https://www.unisg.ch/en/university/about-us/organisation/detail/person-id/7b90e8d6-6df7-4032-821b-15cb2eff320a/"},
-    { name: "Katerina Mitrokotsa", role: "Full Professor in Cyber Security; Director, Institute of Computer Science",
+    { title: "Prof. Dr.", name: "Katerina Mitrokotsa", role: "Full Professor in Cyber Security; Director, Institute of Computer Science",
       affiliation: "University of St.Gallen", photo: "img/katerina-mitrokotsa.jpg", url: "https://www.unisg.ch/en/university/about-us/organisation/detail/person-id/dcd1ccda-0c2f-453d-b990-514e04a7aa6a/" },
-    { name: "Guido Salvaneschi", role: "Full Professor of Software and Systems Security; Director, Institute of Computer Science",
+    { title: "Prof. Dr.", name: "Guido Salvaneschi", role: "Full Professor of Software and Systems Security; Director, Institute of Computer Science",
       affiliation: "University of St.Gallen", photo: "img/guido-salvaneschi.jpg", url: "https://www.unisg.ch/en/university/about-us/organisation/detail/person-id/98878da9-6fff-4cad-bf4c-7d66669ebc4f/"}
   ],
 
