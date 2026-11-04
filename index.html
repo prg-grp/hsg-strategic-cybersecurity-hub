@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HSG Strategic Cybersecurity Hub</title>
+  <meta name="description" content="HSG Strategic Cybersecurity Hub at the University of St.Gallen: connecting cybersecurity research, leadership, and practice.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span>University of St.Gallen · Institute of Computer Science</span>
+      <a href="https://www.unisg.ch" target="_blank" rel="noopener">unisg.ch</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#top">
+        <span class="mark" id="brand-mark">HSG</span>
+        <span class="name" id="brand-name">Strategic Cybersecurity Hub<small>University of St.Gallen</small></span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="main-nav">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#event">Event</a></li>
+          <li><a href="#programme">Programme</a></li>
+          <li><a href="#focus">Focus areas</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#participate">Participate</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <div>
+          <span class="eyebrow" id="hero-eyebrow"></span>
+          <h1 id="hero-title"></h1>
+          <p class="tagline" id="hero-tagline"></p>
+          <div class="verbs" id="hero-verbs"></div>
+          <p class="lead" id="hero-intro"></p>
+          <div class="actions">
+            <a class="btn on-dark" href="#event">Strategic Cybersecurity Day</a>
+            <a class="btn outline on-dark" href="#participate">Participate</a>
+          </div>
+        </div>
+        <aside class="event-card" id="event-card"></aside>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">About the Hub</span>
+          <h2 id="about-title"></h2>
+        </div>
+        <div id="about-text"></div>
+        <div class="flow" id="flow"></div>
+      </div>
+    </section>
+
+    <!-- Flagship event -->
+    <section class="section alt" id="event">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow" id="event-label"></span>
+          <h2 id="event-title"></h2>
+          <p id="event-subtitle"></p>
+        </div>
+        <div class="grid cols-4" id="event-facts" style="margin-bottom:36px"></div>
+        <h3>Who should attend</h3>
+        <ul class="audience" id="event-audience"></ul>
+        <p style="margin-top:28px" id="event-reg-note" class="muted"></p>
+        <div id="event-reg"></div>
+      </div>
+    </section>
+
+    <!-- Programme -->
+    <section class="section" id="programme">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">5 March 2027</span>
+          <h2>Programme</h2>
+          <p>Preliminary programme. Click an entry to show its description.</p>
+        </div>
+        <div class="filters" id="prog-filters"></div>
+        <ul class="programme" id="prog-list"></ul>
+      </div>
+    </section>
+
+    <!-- Focus areas -->
+    <section class="section alt" id="focus">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Focus areas</span>
+          <h2>What we work on</h2>
+        </div>
+        <div class="grid cols-3" id="focus-grid"></div>
+      </div>
+    </section>
+
+    <!-- Events tracker -->
+    <section class="section" id="events">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Events tracker</span>
+          <h2>Upcoming and past events</h2>
+        </div>
+        <div class="tracker">
+          <div><h3>Upcoming</h3><div id="events-upcoming"></div></div>
+          <div><h3>Past</h3><div id="events-past"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Participate -->
+    <section class="section alt" id="participate">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Participate</span>
+          <h2>Participate in Hub activities</h2>
+        </div>
+        <div class="grid cols-4" id="participate-grid"></div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section" id="team">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Team</span>
+          <h2>The team</h2>
+        </div>
+        <div class="grid cols-3" id="team-grid"></div>
+        <h3 style="margin-top:48px">Partners and supporters</h3>
+        <div class="partners" id="partners"></div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container">
+        <h2>Join the First St.Gallen Strategic Cybersecurity Day</h2>
+        <p id="cta-text"></p>
+        <div id="cta-btn"></div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Contact</span>
+          <h2>Get in touch</h2>
+        </div>
+        <div class="contact" id="contact-block"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div id="footer-legal"></div>
+      <div id="footer-links"></div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
