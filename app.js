@@ -1,7 +1,7 @@
 /* Renders the page from window.SITE_DATA (see data.js). No server, no build step. */
 (function () {
   const D = window.SITE_DATA;
-  const $ = (id) => document.getElementById(id);
+  const $ = (id) => document.getElementById(id) || document.createElement("div");
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const initials = (name) => name.split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
 

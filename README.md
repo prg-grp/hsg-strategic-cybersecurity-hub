@@ -15,3 +15,7 @@ Notes
 - Registration: set event.registration.url in data.js to the real registration link.
 - Photos/logos: put images in an img/ folder and reference them as "img/name.jpg".
 - Events are sorted into upcoming/past automatically by their date.
+
+Cache note: index.html loads styles.css, data.js and app.js with a "?v=N" suffix.
+When you change one of these files, bump the number in index.html so browsers and
+GitHub Pages fetch the new version instead of a cached one.

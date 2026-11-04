@@ -135,7 +135,7 @@ window.SITE_DATA = {
   contact: {
     organiser: "Institute of Computer Science (ICS-HSG), University of St.Gallen",
     address: "Rosenbergstrasse 30, 9000 St.Gallen, Switzerland",
-    email: "cybersecurity-hub@unisg.ch",   // replace with the real address
+    email: "",   // leave empty to hide; e.g. "cybersecurity-hub@unisg.ch"
     links: [
       { label: "LinkedIn", url: "https://www.linkedin.com/company/116053363/" },
       { label: "University of St.Gallen", url: "https://www.unisg.ch" },
